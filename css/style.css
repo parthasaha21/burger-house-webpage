@@ -1,0 +1,937 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+h1,h2,h3{
+    font-family: "Rubik", sans-serif;
+}
+.wrapper{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* navbar */
+.navbar{
+    background-image: url("../image/Rectangle.png");
+    height: 823px;
+}
+.nav-banar {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nav-text img{
+    height: 40px;
+}
+.nav-text p{
+    font-size: 16px;
+    color:#3d2514 ;
+    font-weight:600;
+}
+.navDiv{
+    margin-top: 20px;
+}
+.navDiv .navlist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+.navlist .toggler a{
+    display: none;
+
+}
+.navlist li a{
+    font-size: 20px;
+    color: #3d2514;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-weight: 400;
+}
+/* banar-div */
+.banar-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.banar-text{
+    padding-top: 110px;
+}
+.banar-text  p{
+    color: #3d2514;
+    font-size: 23px;
+    border: 1px solid #3d2514;
+    padding: 10px;
+    /* text-transform: uppercase; */
+}
+.banar-text  p{
+    width: 450px;
+}
+.banar-text h1{
+    font-size: 104px;
+    color: #3d2514;
+    text-shadow: 2px 4px 3px rgba(255, 255, 255, 1);
+    font-weight: bolder;
+}
+
+.banar-text h2{
+    font-size: 54px;
+    color: #3d2514;
+    text-shadow: 2px 4px 3px rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+.banar-image img{
+    object-fit: cover;
+    height: 620px;
+}
+.side-logo img{
+    height: 90px;
+    width: 90px;
+    object-fit: contain;
+}
+.side-logo p{
+    font-size: 25px;
+    padding-left: 20px;
+    width: 100px;
+    transform: translateY(-75px);
+    color: white;
+}
+.side-logo p span{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.side-logo{
+    transform: translate(135px, 365px);
+    width: 100px;
+}
+.main-img{
+    transform: translateY(-145px);
+}
+.banar-image{
+    height: 600px;
+}
+/* gallery */
+  .gallery{
+    height: 660px;
+  }
+  .gallery-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 150px;
+   padding-right: 150px;
+   padding-top: 20px;
+   flex-wrap: wrap;
+  }
+  .right-card .first-img{
+    margin-bottom: -15px;
+  }
+  .gallery-cards .text{
+    transform: translate(20px,50px);
+    color: white;
+    text-transform: uppercase;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    
+  }
+   .gallery button{
+     width: 220px;
+     height: 50px;
+     text-align:center;
+     font-size: 15px;
+     color: #3d2514;
+    background-color: #ffc045;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+   }
+   /* card-section */
+
+   .card-section h2{
+     font-size: 50px;
+     font-weight: bold;
+     color: #3d2514;
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 30px;
+   }
+   .card-section p{
+    font-size: 16px;
+    text-align: center;
+    color: #3d2514;
+   }
+   .card-section{
+     height: 760px;
+   }
+   .order_card h3{
+    font-size: 30px;
+    text-align: center;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   }
+   .order_card button{
+      border: none;
+      background-color: red;
+      padding: 10px;
+      height: 40px;
+      font-size: 15px;
+      width: 130px;
+      color: white;
+      font-weight: bold;
+   }
+   .order_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 55px;
+    flex-wrap: wrap;
+   }
+   .order-btn{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+   }
+   .card{
+    height: 500px;
+    width: 360px;
+   }
+   .card img{
+     height: 300px;
+     object-fit: cover;
+     object-position: center;
+   }
+   .card #big-img{
+    margin-left: 10px;
+   }
+   /* event-section */
+   .event-section{
+    height: 420px;
+   }
+   .full-card{
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+   }
+   .left-text h4{
+    font-size: 29px;
+    color: #3d2514;
+    font-weight: 400;
+   }
+   .left-text h2{
+    font-size: 40px;
+    color: #3d2514;
+    padding-bottom: 26px;
+   }
+   .left-text p{
+    font-size: 20px;
+    color: #3d2514;
+    padding-bottom: 6px;
+   }
+   .full-card .right-img img{
+    height:350px ;
+   }
+   .left-text{
+    width: 600px;
+    padding-left: 60px;
+   }
+
+   /* form  */
+   .form-section{
+     height: 820px;
+   }
+   .form-heading-part{
+     display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+   }
+   .form-heading-part .heading-text{
+    text-align: center;
+    text-transform: uppercase;
+    
+   }
+   .form-heading-part .heading-text p{
+    font-size: 29px;
+    color: #3d2514;
+    padding-bottom: 10px;
+   }
+   .form-heading-part .heading-text h2{
+    font-size: 50px;
+    color: #3d2514;
+   }
+   .form-heading-part .hading-img{
+    width: 500px;
+   }
+   .form-div{
+     display: flex;
+     justify-content: space-between;
+   }
+   .form-part input{
+    height: 70px;
+    width: 380px;
+    margin: 10px;
+   }
+   .form-part input::placeholder{
+    padding: 10px;
+    font-weight: bold;
+   }
+   .form-part #btn{
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   }
+   /* footer-part */
+   .footer-part{
+     height: 600px;
+     background-image: url("../image/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\).png");
+     background-repeat: no-repeat;
+     object-fit: cover;
+     background-position: center;
+    }
+.footer-div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 120px;
+    flex-wrap: wrap;
+}
+.footer-text p{
+    color:#bebdbc;
+    line-height: 25px;
+}
+.footer-about p{
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-about i{
+    padding-right: 20px;
+}
+.footer-heding-img{
+    padding-top: 70px;
+    padding-left: 90px;
+}
+.footer-part-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 120px;
+}
+.footer-part-2 .name{
+   color: #bebdbc;
+   text-transform: uppercase;
+} 
+.footer-part-2 .icons i{
+    background-color: white;
+    border: 1px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+}
+/* responsive part */
+@media screen and (max-width:1295px){
+    .left-card img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .right-card img{
+        height: 135px;
+        object-fit: cover;
+    }
+    .gallery-cards h2{
+        font-size: 20px;
+    }
+    .gallery{
+        height: 550px;
+      }
+      .card img{
+        height: 250px;
+        object-fit: cover;
+      }
+      .card{
+        height: 440px;
+        width: 320px;
+       }
+       .card #big-img {
+        margin-left: 20px !important;
+       }
+       .card-section{
+        height: 660px;
+      }
+      .form-heading-part .hading-img{
+        width: 400px;
+       }
+      .form-heading-part img{
+        height: 200px;
+      }
+      .form-div .drink-img img{
+        height: 300px;
+        object-fit: cover;
+      }
+      .form-part input{
+        height: 50px;
+        width: 300px;
+    }
+    .form-div .plate-img img{
+        height: 250px;
+        object-fit: cover;
+    }
+    .form-section{
+        height: 460px;
+      }
+}
+@media screen and (max-width:1195px){
+    .navbar{
+        height: 723px;
+    }
+    .banar-text{
+        height: 350px;
+    }
+    .main-img img{
+        object-fit: cover;
+       height: 450px;
+    }
+    .banar-text h1{
+        font-size: 72px;
+    }
+    .side-logo{
+        transform: translate(70px, 250px);
+    }
+    .banar-image{
+        height: 500px;
+    }
+    .gallery-cards{ 
+       padding-left: 80px;
+       padding-right: 80px;
+      }
+      .card #big-img {
+        margin-left: 40px !important;
+       }
+      .card img{
+        height: 230px;
+      }
+       .card #big-img {
+        margin-left: 20px !important;
+       }
+       .card-section{
+        height: 640px;
+      }
+       .card p{
+        font-size: 14px;
+       }
+       .card{
+        height: 440px;
+        width: 290px;
+       }
+       .left-text h4{
+        font-size: 25px;
+        font-weight: 400;
+       }
+       .left-text h2{
+        font-size: 35px;
+        padding-bottom: 24px;
+       }
+       .left-text p{
+        font-size: 17px;
+        padding-bottom: 6px;
+       }
+       .full-card .right-img img{
+        height:300px ;
+       }
+       .event-section{
+        height: 430px;
+       }
+       .left-text{
+        width: 600px;
+        padding-left: 0px;
+       }
+       .form-heading-part .hading-img{
+        /* width: 300px; */
+        display: none;
+       }
+       .form-heading-part .heading-text{
+        text-align: center;
+       }
+       .form-heading-part{ 
+       justify-content: center;
+       align-items: center;
+      }
+}
+@media screen and (max-width:1095px){
+    .navbar{
+        height: 673px;
+    }
+    .banar-text  p{
+        font-size: 19px;
+    }
+    .banar-text  p{
+        width: 280px;
+    }
+    .banar-div{
+        height: 400px;
+    }
+    .gallery-cards{ 
+        padding-left: 60px;
+        padding-right: 60px;
+       }
+       .gallery button{
+        width: 160px;
+        height: 50px;
+        font-size: 13px;
+        padding: 10px;
+      }
+      .footer-div-1{
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 80px;
+      }
+      .footer-div-1 p{
+        font-size: 14px;
+      }
+      .footer-part-2{
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+      .footer-div-2 p{
+        font-size: 14px;
+      }
+}
+@media screen and (max-width:991px){
+    .wrapper{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .nav-banar {
+        padding-top: 30px;
+    }
+    .navlist li a{
+        display: none;
+    }
+    
+    .navlist .toggler a{
+        display: block;
+        
+    }
+    .navDiv .navlist{
+
+        justify-content: flex-start;
+        padding-left: 10px;
+        gap: 0px;
+    }
+    .nav-text img{
+        height: 30px;
+        object-fit: cover;
+    }
+    .nav-text p{
+        font-size: 15px;
+    }
+    .banar-text  p{
+        font-size: 14px;
+    }
+    .banar-text  p{
+        width: 200px;
+    }
+    .nav-text{
+        gap: 20px;
+    }
+    .nav-logo img{
+        height:50px ;
+    }
+    .banar-image{
+        height: 400px;
+    }
+    /* .main-img img{
+        object-fit: cover;
+       height: 400px;
+    } */
+    .navbar{
+        height: 603px;
+    }
+    .banar-text h1{
+        font-size: 62px;
+    }
+    .side-logo{
+        transform: translate(65px, 245px);
+    }
+    .gallery-cards{ 
+        padding-left: 40px;
+        padding-right: 40px;
+       }
+
+       .left-card img{
+        height: 260px;
+        object-fit: cover;
+    }
+    
+    .right-card img{
+        height: 115px;
+        object-fit: cover;
+    }
+    .gallery-cards h2{
+        font-size: 20px;
+    }
+    .gallery{
+        height: 500px;
+    }
+    .gallery button{
+        width: 140px;
+        height: 50px;
+        font-size: 13px;
+        padding: 10px;
+      }
+
+      .card img{
+        height: 200px;
+      }
+       .card #big-img {
+        margin-left: 20px !important;
+       }
+       .card-section{
+        height: 600px;
+      }
+       .card p{
+        font-size: 14px;
+       }
+       .card{
+        height: 440px;
+        width: 270px;
+       }
+       .card h3{
+           font-size: 25px;
+       }
+       .card-section h2{
+        font-size: 32px;
+       }
+       
+       .left-text h4{
+        font-size: 22px;
+       }
+       .left-text h2{
+        font-size: 32px;
+        padding-bottom: 20px;
+       }
+       .left-text p{
+        font-size: 15px;
+        padding-bottom: 4px;
+       }
+       .full-card .right-img img{
+        height:230px ;
+       }
+       .event-section{
+        height: 350px;
+       }
+       .form-div{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+      }
+      .drink-img{
+        display: none;
+      }
+      .plate-img{
+        display: none;
+      }
+      .form-section{
+        height: 360px;
+      }
+      .form-heading-part .heading-text h2{
+        font-size: 35px;
+      }
+      .form-div{
+        justify-content: center;
+      }
+}
+@media screen and (max-width:870px){
+    .card-section{
+        height: 1040px;
+      }
+      .card{
+        height: 410px;
+        width: 270px;
+       }
+       .footer-div-1{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 80px;
+      }
+      .footer-heding-img img{
+        height: 60px;
+      }
+      .footer-heding-img{
+        text-align: center;
+      }
+      .footer-heding-img{
+        padding-top: 70px;
+        padding-left: 0px;
+    }
+    .footer-part-2{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 80px;
+      }
+}
+@media screen and (max-width:767px){
+    .navbar{
+        height: 553px;
+    }
+    .main-img img{
+        object-fit: cover;
+       height: 350px;
+    }
+    .banar-text h1{
+        font-size: 42px;
+    } 
+    .side-logo img{
+        height: 70px;
+        width: 90px;
+        object-fit: contain;
+    }
+    .side-logo p{
+        font-size: 16px;
+        padding-left: 25px;
+        width: 70px;
+        transform: translateY(-60px);
+        font-weight:b0ld;
+    }
+    .side-logo p span{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .side-logo{
+        transform: translate(45px, 155px);
+    }
+    .right-card img{
+        height: 120px;
+        object-fit: cover;
+    }
+    .right-card{
+       transform: translateY(-40px);
+    }
+    .gallery-cards{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+    }
+    .gallery{
+        height: 800px;
+    }
+   
+    .banar-text h1{
+        font-size: 32px;
+    } 
+    .btn{
+        margin-top: 20px;
+    }
+    .full-card{
+        justify-content:center;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .event-section{
+        height: 530px;
+       }
+       .left-text h2{
+        font-size: 25px;
+    }
+    .footer-div-1{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 80px;
+        gap: 20px;
+      }
+      .footer-part-2{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 80px;
+      }
+      .footer-part-2 p{
+        font-size: 14px;
+      }
+}
+@media screen and (max-width:650px){
+    .form-part input{
+        height: 50px;
+        width: 200px;
+        margin: 10px;
+       }
+       
+    .form-part{
+        height: 400px;
+    }
+}
+@media screen and (max-width:600px){
+    .banar-text h1{
+        font-size: 38px;
+    } 
+    .banar-text h2{
+        font-size: 30px;
+    }
+    .main-img img{
+        object-fit: cover;
+       height: 250px;
+       margin-right: 50px;
+    }
+    .side-logo{
+        display: none;
+    }
+    .main-img{
+        transform: translateY(0px);
+    }
+    .card-section{
+        height: 1440px;
+      }
+      .card-section h2{
+        font-size: 32px;
+       }
+}
+@media screen and (max-width:565px){
+    .navbar{
+        height: 515px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .nav-banar{
+        justify-content: center;
+    }
+    .banar-div{
+        margin-top: 20px;
+    }
+    .banar-text{
+        text-align: center;
+    }
+    .banar-text p{
+        display: none;
+    }
+    .navDiv .navlist{
+        padding-left: 0px;
+    }
+    .banar-div{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .banar-text h1{
+        font-size: 38px;
+    } 
+    .banar-text h2{
+        font-size: 30px;
+    }
+    .main-img img{
+        object-fit: cover;
+       height: 250px;
+       margin-right: 50px;
+    }
+    .banar-text{
+        padding-top:0px;
+        height: 120px;
+    }
+    .banar-div{
+        height: 350px;
+    }
+    .banar-image{
+        height: 230px;
+    }
+    .left-card img{
+        height: 220px;
+        object-fit: cover;
+    }
+    .right-card img{
+        height: 100px;
+        object-fit: cover;
+    }
+    .gallery-cards{
+        margin-top: 0px;
+    }
+    .gallery{
+        height: 700px;
+    }
+    .full-card .right-img img{
+        height:190px ;
+       }
+       .event-section{
+        height: 580px;
+       }
+     .form-heading-part .heading-text{
+        margin-bottom: 60px;
+     } 
+     .form-heading-part .heading-text h2{
+        font-size: 25px;
+      } 
+      .footer-div-1{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer-div-1{
+        font-size: 13px;
+      }
+      .footer-part-2{
+        padding-left: 0px;
+        padding-right:05px;
+        padding-top: 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+}
+@media screen and (max-width:444px){
+    .form-part input{
+        height: 50px;
+        width: 320px;
+        margin: 10px;
+       }
+    .form-div .form-part{
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .form-section{
+        height: 620px;
+      }
+}
+@media screen and (max-width:404px){
+    .form-div .form-part{
+        margin-left: 17px;
+        margin-right: 0px;
+    }
+}
